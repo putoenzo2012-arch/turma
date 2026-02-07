@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turma 8.º A</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background: linear-gradient(160deg,#0f172a,#0b1220);
+    color:#fff;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#7dd3fc;
+}
+
+nav a{
+    color:#cbd5f5;
+    text-decoration:none;
+    margin-left:15px;
+    font-size:14px;
+}
+
+main{
+    padding:25px;
+    max-width:900px;
+    margin:auto;
+}
+
+.tag{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:20px;
+    background:rgba(125,211,252,0.15);
+    color:#7dd3fc;
+    font-size:13px;
+    margin-bottom:15px;
+}
+
+h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.subtitulo{
+    color:#94a3b8;
+    margin-bottom:18px;
+}
+
+p{
+    color:#cbd5f5;
+    line-height:1.5;
+    margin-bottom:25px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:35px;
+}
+
+.btn{
+    padding:12px 18px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,0.08);
+    background:rgba(255,255,255,0.05);
+    color:#fff;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.section{
+    background:rgba(255,255,255,0.04);
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.section h2{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.list{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.item{
+    padding:14px;
+    border-radius:14px;
+    background:rgba(255,255,255,0.05);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.label{
+    color:#7dd3fc;
+    font-size:13px;
+}
+
+a{
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Turma 8.º A</div>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Atividades</a>
+        <a href="#">Contactos</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="tag">Página oficial da turma</div>
+
+    <h1>Turma 8.º A</h1>
+    <div class="subtitulo">Ano letivo – informações e atividades</div>
+
+    <p>
+        Aqui podes consultar todas as informações importantes da turma,
+        como testes, visitas de estudo, trabalhos e avisos.
+    </p>
+
+    <div class="buttons">
+        <<a href="testes.html" class="btn">Testes</a>
+        <a href="visitas.html" class="btn">Visitas de estudo</a>
+        <button class="btn">Trabalhos</button>
+        <button class="btn">Avisos</button>
+
+        <!-- BOTÃO HORÁRIO JÁ A FUNCIONAR -->
+        <a href="horario.html">
+            <button class="btn">Horário</button>
+        </a>
+    </div>
+
+    <div class="section">
+        <h2>Representantes da turma</h2>
+
+        <div class="list">
+            <div class="item">
+                <span>Delegado</span>
+                <span class="label">Gabriela Marques</span>
+            </div>
+
+            <div class="item">
+                <span>Sub-delegado</span>
+                <span class="label">Dilan Oliveira</span>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>
